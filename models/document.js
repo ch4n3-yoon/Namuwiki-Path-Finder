@@ -18,4 +18,4 @@ const DocumentSchema = new mongoose.Schema({
     },
 });
 
-module.exports = mongoose.model('Document', DocumentSchema, 'namuwiki');
+module.exports = mongoose.model('Document', DocumentSchema, 'Document');

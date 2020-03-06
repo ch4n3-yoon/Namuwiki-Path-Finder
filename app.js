@@ -1,9 +1,9 @@
 const loaders = require('./loaders');
+const NavigationService = require('./services/navigation');
 
-async function startServer() {
-
+async function app() {
     await loaders();
-
+    // NavigationService('', '');
 }
 
-startServer();
+app();

@@ -5,6 +5,6 @@ const DocumentService = require('../services/document');
 module.exports = async () => {
     const mongoConnection = await mongooseLoader();
     console.log('MongoDB Intialized');
-    console.log(await DocumentService.getByTitle('%2A뮤트'));
-
+    // 테스트
+    console.log(await DocumentService.getLinkedDocument('홍진호'));
 };
